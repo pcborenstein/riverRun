@@ -3,7 +3,8 @@ import socket
 
 
 s = socket.socket()
-
+#http://www.gate-riverrun.com/Results%20files/grr09overallresB.htm
+#http://www.1stplacesports.com/grr16overallres.htm
 host=socket.gethostbyname('www.1stplacesports.com')
 port = 80
 s.connect((host, port))
